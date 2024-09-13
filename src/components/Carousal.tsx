@@ -81,20 +81,6 @@ export const Carousal: React.FC = () => {
         },
       }}
     >
-      {/* {carsData.map((car, index) => (
-          <SwiperSlide key={index}>
-            <div style={{ textAlign: 'center' }}>
-              <h3>{car.bodyType}</h3>
-              <p className="model-name">{car.modelName} <span className="model-type">{car.modelType}</span></p>
-              <img src={car.imageUrl} alt={car.bodyType} style={{ width: '100%', height: 'auto' }} />
-              <div>
-                <a href={"/learn-more?id="+car.id} className="link">{'LEARN >'}</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href={"/shop?id="+car.id} className="link">{'SHOP >'}</a>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))} */}
         {carsResult.map((car, index) => (
           <SwiperSlide key={index}>
             <div style={{ textAlign: 'center' }}>
