@@ -1,0 +1,51 @@
+body {
+  background: #fff;
+  color: #000;
+}
+.swiper-slide {
+  text-align: center;
+}
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 25px !important;
+}
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #666;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.swiper-slide p {
+  font-size: 14px;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.link {
+  color: #3A7CBF;
+  font-size: 12px;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+.model-name {
+  font-weight: 700;
+  color: #000;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.model-type {
+  color: #666;
+  font-weight: 500;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.mySwiper {
+  margin-top: 25px;
+}
